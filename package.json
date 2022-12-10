@@ -1,6 +1,6 @@
 {
 	"name": "@jase.haddleton/create-simple-react-app",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple NPM package bootstrap",
 	"author": "Jason Haddleton <jason.haddleton@simple.io>",
 	"license": "ISC",
