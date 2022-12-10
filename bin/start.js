@@ -150,7 +150,7 @@ const initialize = async project =>
 		console.log(`Initializing ${project}`);
 
 		exec(
-			`mkdir ${project} && cd ${project} && npm init -f`,
+			`mkdir -p ${project} && cd ${project} && npm init -f`,
 			async (error, _stdout, _stderr) =>
 			{
 				if (error) reject(`Encounted an error initializing ${project}:\n${error}`);
