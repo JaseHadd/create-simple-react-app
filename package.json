@@ -1,5 +1,5 @@
 {
-	"name": "create-simple-react-app",
+	"name": "@jase.haddleton/create-simple-react-app",
 	"version": "1.0.0",
 	"description": "A simple NPM package bootstrap",
 	"author": "Jason Haddleton <jason.haddleton@simple.io>",
