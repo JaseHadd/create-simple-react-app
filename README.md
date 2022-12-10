@@ -8,7 +8,7 @@ Simply navigate to where you want your new project's folder to be created, and t
 ```console
 foo@bar:~$ cd projects
 foo@bar:projects$ npm install --global @jase.haddleton/create-simple-react-app
-foo@bar:projects$ npm exec @jase.haddleton/create-simple-react-app my-cool-new-app
+foo@bar:projects$ create-simple-react-app my-cool-new-app
 
 foo@bar:projects$ cd my-cool-new-app
 foo@bar:my-cool-new-app$ npm start
