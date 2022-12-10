@@ -63,6 +63,7 @@ const buildJSON = async target =>
 				let data = JSON.parse(file);
 
 				data.scripts = scripts;
+				data.type = "module";
 
 				fs.writeFile(target, `${JSON.stringify(data, null, '\t')}\n`)
 					.catch(reject)
